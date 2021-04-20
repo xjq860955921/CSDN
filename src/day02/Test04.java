@@ -5,5 +5,11 @@ package day02;
  *
  */
 public class Test04 {
+    public static void main(String[] args) {
+        String s = "123abc456def789ghi";
+        String regex = "(abc)|(def)|(ghi)";
+        String s1 = s.replaceAll(regex, "#char#");
+        System.out.println(s1);
+    }
 
 }

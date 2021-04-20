@@ -10,5 +10,38 @@ package day02;
  *
  */
 public class Test08 {
+    public static void main(String[] args) {
+        Staff staff = new Staff("张三", 25, "男", 5000);
+        Staff staff1 = new Staff("李四", 26, "女", 6000);
+        Staff[] arr = {staff,staff1};
+        for (Staff staff2 : arr) {
+            System.out.println(staff2);
+        }
+    }
+}
+class Staff{
+    String name;
+    int age;
+    String gender;
+    int salary;
 
+    public Staff() {
+    }
+
+    public Staff(String name, int age, String gender, int salary) {
+        this.name = name;
+        this.age = age;
+        this.gender = gender;
+        this.salary = salary;
+    }
+
+    @Override
+    public String toString() {
+        return "Staff{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", gender='" + gender + '\'' +
+                ", salary=" + salary +
+                '}';
+    }
 }

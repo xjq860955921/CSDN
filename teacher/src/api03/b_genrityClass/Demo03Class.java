@@ -1,8 +1,8 @@
-package b_genrityClass;
+package api03.b_genrityClass;
 /*
     有实际意义的类
  */
-public class Demo03Class<T,S> {
+public class  Demo03Class<T,S> {
     //方法的重载
     /*public void print(int a,int b){
         System.out.println(a + b);

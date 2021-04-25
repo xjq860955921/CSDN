@@ -1,11 +1,11 @@
-package b_genrityClass;
+package api03.b_genrityClass;
 
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Date;
 import java.util.Iterator;
 
-public class Demo01 {
+public class  Demo01 {
     public static void main(String[] args) {
         Collection col = new ArrayList();
         col.add(1);

@@ -1,4 +1,4 @@
-package b_genrityClass;
+package api03.b_genrityClass;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;
@@ -13,7 +13,7 @@ import java.util.Iterator;
     .java -> 程序员编写的
     .class -> 计算机运行的代码
  */
-public class Demo02 {
+public class  Demo02 {
     public static void main(String[] args) {
         Collection<String> col = new ArrayList<>();
         col.add("张飞");

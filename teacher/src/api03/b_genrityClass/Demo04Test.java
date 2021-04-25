@@ -1,4 +1,4 @@
-package b_genrityClass;
+package api03.b_genrityClass;
 
 import java.util.Date;
 
